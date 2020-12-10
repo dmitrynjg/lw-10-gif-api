@@ -1,0 +1,26 @@
+.giphy-search {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	background: #fff;
+	border-radius: 10px;
+	box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+	margin-bottom: 20px;
+}
+.giphy-search-icon {
+	padding: 10px 14px;
+	cursor: pointer;
+	border-radius: 0 10px 10px 0;
+	box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+}
+.giphy-search-icon::before {
+	content: '🔎';
+}
+
+.giphy-search input {
+	width: 100%;
+	padding: 10px;
+	background: transparent;
+	border: 0;
+	outline: none;
+}
